@@ -1,5 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <MyProfile />
+    <MySkill />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import MyProfile from '@/components/MyProfile.vue'
+import MySkill from '@/components/MySkill.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    MyProfile,
+    MySkill
+  }
+}
+</script>
