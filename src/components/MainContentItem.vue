@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">
-          <a :href="item.link" class="card-link">{{ item.title }}</a>
+          <a :href="item.link" class="card-link" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
         </h4>
         <h5 class="card-subtitle mb-2 text-muted">{{ item.skill }}</h5>
         <p class="card-text">{{ item.overview }}</p>
