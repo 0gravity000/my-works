@@ -1,16 +1,18 @@
 <template>
-  <div class="maincontent">
-    <h1>{{ title }}</h1>
-    <h2>{{ subTitle }}</h2>
+  <div>
+    <h3>作品一覧</h3>
+    <MainContentItem />
   </div>
 </template>
 
 <script>
+// @ is an alias to /src
+import MainContentItem from '@/components/MainContentItem.vue'
+
 export default {
   name: 'MainContent',
-  props: {
-    title: String,
-    subTitle: String,
+  components: {
+    MainContentItem
   }
 }
 </script>

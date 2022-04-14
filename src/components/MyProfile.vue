@@ -1,6 +1,6 @@
 <template>
   <div class="myprofile">
-    <h1>プロフィール</h1>
+    <h3>プロフィール</h3>
     <p>
       そこx2ベテランのエンジニアです。
     </p>

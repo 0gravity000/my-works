@@ -1,6 +1,6 @@
 <template>
   <div class="myskill">
-    <h1>スキル</h1>
+    <h3>スキル</h3>
     <p>
       モダンWebアプリ開発に興味があります。Laravelとかコード書いてて、なんだか面白い。
     </p>
