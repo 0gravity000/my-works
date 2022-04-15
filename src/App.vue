@@ -24,16 +24,28 @@ export default {
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+.caption {
+  background-color: #191970;
+  color: white;
+  padding: 0.5rem;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.card {
+  margin-top: 1rem;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+div.my-profile, div.my-skill {
+  margin-top: 1rem;
 }
+
+.header-main {
+  margin: 2rem;
+}
+
+.footer-main {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
 </style>
