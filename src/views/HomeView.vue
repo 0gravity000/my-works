@@ -2,9 +2,15 @@
   <div class="home">
     <div class="container">
       <HeaderMain />
-      <MainContent />
+      <dev class="row">
+        <dev class="col-6">
+          <MainContent />
+        </dev>
+        <dev class="col">
+          <AboutContent />
+        </dev>
+      </dev>
     </div>
-    <FooterMain />
   </div>
 </template>
 
@@ -12,14 +18,16 @@
 // @ is an alias to /src
 import MainContent from '@/components/MainContent.vue'
 import HeaderMain from '@/components/HeaderMain.vue'
-import FooterMain from '@/components/FooterMain.vue'
+import AboutContent from '@/components/AboutContent.vue'
+//import GetInTouch from '@/components/GetInTouch.vue'
 
 export default {
   name: 'HomeView',
   components: {
     MainContent,
     HeaderMain,
-    FooterMain
+    AboutContent
+    //GetInTouch,
   }
 }
 </script>

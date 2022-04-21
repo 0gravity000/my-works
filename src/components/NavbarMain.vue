@@ -14,11 +14,13 @@
               <a class="nav-link active" aria-current="page">作品一覧</a>
             </router-link>
           </li>
+          <!--
           <li class="nav-item">
             <router-link to="/about">
               <a class="nav-link">About</a>
             </router-link>
           </li>
+          -->
         </ul>
       </div>
     </div>
