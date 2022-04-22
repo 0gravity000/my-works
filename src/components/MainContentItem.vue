@@ -28,16 +28,23 @@ export default {
         {
           id: 2,
           title: "Resume",
-          link: "#",
-          skill: "PHP/Laravel/MySQL",
+          link: "https://resume-0gravity.an.r.appspot.com/",
+          skill: "vue.js+JavaScript/Flask+python/GCP(GAE+Datastore)",
           overview: "履歴書の作成支援Webサイト"
         },
         {
-          id: 3,
-          title: "BitCode",
-          link: "https://bitcode.0gravity0.com/",
-          skill: "PHP/Laravel+JavaScript/Vue.js/MySQL",
-          overview: "コードのスニペットを投稿、閲覧できるWebアプリ"
+          id: 6,
+          title: "Video Libraly",
+          link: "https://videolibrary.0gravity0.com/",
+          skill: "Laravel+PHP/MySQL",
+          overview: "Amazon Prime Videoをスクレイピングして表示するWebサイト"
+        },
+        {
+          id: 7,
+          title: "Game Libraly",
+          link: "https://gamelibrary.0gravity0.com/",
+          skill: "Laravel+PHP/MySQL/Youtube API",
+          overview: "Youtube APIを使って、ゲーム動画を表示するWebサイト"
         },
         {
           id: 4,
@@ -47,52 +54,45 @@ export default {
           overview: "Ruby on Rails チュートリアル Sample app"
         },
         {
+          id: 3,
+          title: "BitCode",
+          link: "https://bitcode.0gravity0.com/",
+          skill: "Laravel+PHP/Vue.js+JavaScript/MySQL",
+          overview: "コードのスニペットを投稿、閲覧できるWebアプリ"
+        },
+        {
           id: 5,
           title: "DVD Rental",
           link: "https://dvdrental.0gravity0.com/",
-          skill: "Laravel/MySQL",
+          skill: "Laravel+PHP/MySQL",
           overview: "DVD Rentalデモサイト"
-        },
-        {
-          id: 6,
-          title: "Video Libraly",
-          link: "https://videolibrary.0gravity0.com/",
-          skill: "Laravel/MySQL",
-          overview: "Amazon Prime Videoをスクレイピングして表示するWebサイト"
-        },
-        {
-          id: 7,
-          title: "Game Libraly",
-          link: "https://gamelibrary.0gravity0.com/",
-          skill: "Laravel/MySQL/Youtube API",
-          overview: "Youtube APIを使って、ゲーム動画を表示するWebサイト"
         },
         {
           id: 8,
           title: "Nuxt.js Demoサイト",
           link: "https://nuxtdemo.0gravity0.com/",
-          skill: "JavaScript/Vue.js/Nuxt.js",
+          skill: "Nuxt.js+Vue.js+JavaScript",
           overview: "Nuxt.js+Vue.jsの実験サイトその2"
         },
         {
           id: 9,
           title: "Nuxt.jsデモサイト",
           link: "https://vuejsdemo.0gravity0.com/",
-          skill: "JavaScript/Vue.js/Nuxt.js",
+          skill: "Nuxt.js+Vue.js+JavaScript",
           overview: "Nuxt.js+Vue.jsの実験サイトその1"
         },
         {
           id: 10,
           title: "Memoサイト",
           link: "https://memoapp-nuxt.0gravity0.com/memo/",
-          skill: "JavaScript/Vue.js/Nuxt.js",
+          skill: "Nuxt.js+Vue.js+JavaScript",
           overview: "簡易Memo登録Webサイト"
         },
         {
           id: 11,
           title: "DB Device",
           link: "https://dbdevice.0gravity0.com/",
-          skill: "Laravel/MySQL",
+          skill: "Laravel+PHP/MySQL",
           overview: "スマホ一覧を表示するWebサイト"
         },
         {
@@ -106,28 +106,28 @@ export default {
           id: 13,
           title: "TaskManeger",
           link: "https://taskmaneger.0gravity0.com/",
-          skill: "PHP+Javascript/Laravel+Vue.js",
+          skill: "Laravel+PHP/Vue.js+Javascript",
           overview: "タスク管理アプリ。axios使用し、非同期API通信をする"
         },
         {
           id: 14,
           title: "Sites",
           link: "https://sites.0gravity0.com/",
-          skill: "HTML、CSS",
+          skill: "HTML/CSS",
           overview: "静的なWebサイトのサンプル集。実験や動作確認など"
         },
         {
           id: 15,
           title: "カフェ1",
           link: "https://sites.0gravity0.com/sample01/index.html",
-          skill: "HTML、CSS",
+          skill: "HTML/CSS",
           overview: "カフェのサンプルサイト"
         },
         {
           id: 16,
           title: "文房具購入サイト",
           link: "https://sites.0gravity0.com/sample02/index.html",
-          skill: "Javescript/Vue.js",
+          skill: "Vue.js+Javescript",
           overview: "文房具購入デモサイト"
         },
       ]
