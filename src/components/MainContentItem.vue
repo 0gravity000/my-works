@@ -33,6 +33,13 @@ export default {
           overview: "履歴書の作成支援Webサイト"
         },
         {
+          id: 17,
+          title: "TinyCode",
+          link: "https://tiny-code-0gravity.an.r.appspot.com/",
+          skill: "vue.js+JavaScript/HTML/CSS/GCP(GAE)",
+          overview: "vue.js+JavaScriptで作成した小さなアプリのよせ集め"
+        },
+        {
           id: 6,
           title: "Video Libraly",
           link: "https://videolibrary.0gravity0.com/",
